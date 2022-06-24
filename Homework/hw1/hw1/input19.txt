@@ -1,0 +1,37 @@
+DepthFirstSearch
+6,8
+A b s t r a c t
+n I n h e r i i
+o m o r p h t o
+i y . m s i a n
+t l o P e c n E
+a l u s p a c n
+weneedtolearndatastructures!!!
+4,6
+B r e a d t
+r c h ( B h
+a # ) S F F
+e S t s r i
+Sorting
+2,5
+B u b b l
+t r o S e
+start
+6,5
+w e n e e
+s t r u d
+a ! ! c t
+t s ! t o
+a e r u l
+d n r a e
+BreadthFirstSearch(BFS)#
+4,4
+D e p t
+e a r h
+S h c F
+t s r i
+AbstractionEncapsulationInheritancePolymorphism.
+3,2
+f i
+h n
+s i

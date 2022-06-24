@@ -1,0 +1,15 @@
+﻿  RankSorters.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(69,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(81,9): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(96,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(106,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(116,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(126,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(136,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(146,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(165,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(305,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\lab3\RankSorters.cpp(308,32): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  Generating Code...
+  lab3.vcxproj -> C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 3\lab3\lab3\Debug\lab3.exe

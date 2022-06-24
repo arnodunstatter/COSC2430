@@ -1,0 +1,6 @@
+flipReserve
+pushReserve (postfix)
+flipReserve
+convertReserve
+printReserveTop
+printListBackwards

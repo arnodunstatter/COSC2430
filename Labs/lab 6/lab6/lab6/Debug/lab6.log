@@ -1,0 +1,8 @@
+﻿  Graph.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(74,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(100,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(112,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(148,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\lab6\Graph.cpp(160,20): warning C4018: '<': signed/unsigned mismatch
+  lab6.vcxproj -> C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Labs\lab 6\lab6\Debug\lab6.exe

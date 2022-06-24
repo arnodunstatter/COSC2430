@@ -1,0 +1,12 @@
+List:
+postfix:AB+C-
+prefix:-+ABC
+
+List:
+prefix:-+ABC
+postfix:AB+C-
+
+List:
+postfix:AB+C-
+prefix:-+ABC
+

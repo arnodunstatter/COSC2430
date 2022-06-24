@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+void bubSort(int list[], int size);
+
+int main() {
+   
+  int list[5] = {3,2,9,4,6};
+  int size = *(&list + 1) - list;
+
+  //before bubble sort
+  for (int i = 0; i < size; ++i)
+  cout << list[i] << " ";
+
+  bubSort(list,size);
+   
+  cout << endl;
+
+  for (int i = 0; i < size; ++i)
+  cout << list[i] << " ";
+}
+
+void bubSort(int list[], int size)
+{
+  for(int i = 0; i < size; ++i)
+  {
+    for(int j = i+1; j < size; ++j)
+    {
+      if(list[i]>list[j])
+      swap(list[i],list[j]);    
+    }
+  }
+}
+

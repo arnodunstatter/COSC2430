@@ -1,0 +1,10 @@
+printList
+printListBackwards
+pushReserve (all)
+printReserveSize
+emptyReserve (999)
+printList
+printListBackwards
+removeList (all)
+printList
+printListBackwards

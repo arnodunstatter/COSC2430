@@ -1,0 +1,9 @@
+﻿  Customer.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Bonus\group-extra\groupBonus\groupBonus\Customer.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Servers.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Bonus\group-extra\groupBonus\groupBonus\Servers.cpp(67,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Bonus\group-extra\groupBonus\groupBonus\Servers.cpp(71,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Bonus\group-extra\groupBonus\groupBonus\Servers.cpp(73,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Source.cpp
+  Generating Code...
+  groupBonus.vcxproj -> C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Bonus\group-extra\groupBonus\Debug\groupBonus.exe

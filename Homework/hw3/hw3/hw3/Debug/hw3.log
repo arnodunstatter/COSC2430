@@ -1,0 +1,7 @@
+﻿  list.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\hw3\list.cpp(11,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\hw3\list.cpp(133,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\hw3\list.cpp(152,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\hw3\list.cpp(323,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\hw3\list.cpp(373,20): warning C4018: '<': signed/unsigned mismatch
+  hw3.vcxproj -> C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Homework\hw3\hw3\Debug\hw3.exe

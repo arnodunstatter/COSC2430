@@ -1,0 +1,24 @@
+List:
+EMPTY
+
+Reversed List:
+EMPTY
+
+List:
+prefix:+++++QWERTY
+prefix:--------QEDFGHVCS
+prefix:+*X/BC/FG
+postfix:LED+-SCM*+-G/
+postfix:ALDMUP*****
+postfix:BX+TG*H/-A+
+postfix:WE+
+
+Reversed List:
+postfix:WE+
+postfix:BX+TG*H/-A+
+postfix:ALDMUP*****
+postfix:LED+-SCM*+-G/
+prefix:+*X/BC/FG
+prefix:--------QEDFGHVCS
+prefix:+++++QWERTY
+

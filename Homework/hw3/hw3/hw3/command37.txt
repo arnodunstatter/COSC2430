@@ -1,0 +1,8 @@
+pushReserve (all)
+pushReserve (0)
+pushReserve (-2)
+pushReserve (999)
+emptyReserve (99)
+emptyReserve (3)
+printList
+printListBackwards

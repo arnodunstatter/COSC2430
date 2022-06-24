@@ -1,0 +1,5 @@
+remove problem_name:Validate Binary Search Tree
+remove problem_id:297978
+remove pos:1
+remove pos:0
+remove difficulty:Hard

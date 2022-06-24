@@ -1,0 +1,45 @@
+Max time: 2
+Number of processes: 7
+Number of servers: 3
+
+Process: 1
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 2
+Execution time: 10
+Wait Time: 2
+Start Time: 0
+End Time: 12
+
+Process: 3
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 4
+Execution time: 84
+Wait Time: 2
+Start Time: 0
+End Time: 86
+
+Process: 5
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 6
+Execution time: 99
+Wait Time: 3
+Start Time: 0
+End Time: 102
+
+Process: 7
+Execution time: 7
+Wait Time: 4
+Start Time: 2
+End Time: 11

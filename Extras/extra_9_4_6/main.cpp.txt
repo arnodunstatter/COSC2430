@@ -1,0 +1,155 @@
+#include <iostream>
+#include <stack>
+#include <string>
+using namespace std;
+
+string InfixToPostfix(string);
+int precedence(char);
+int evalPF(string);
+
+int main() {
+  string test = "(4+8)*{(6-5)}/[(3-2)*(2+2)]";
+  //cout << "Original string was: " << test << endl;  
+  cout << "Postfix string is: " << InfixToPostfix(test) << endl;
+  cout << "This evaluates to: " << evalPF(InfixToPostfix(test)) << endl;
+}
+
+int precedence(char sym)
+{
+  if(sym == '^')
+    return 3;
+  else if (sym == '*' || sym == '/')
+    return 2;
+  else if (sym == '+' || sym == '-')
+    return 1;
+  else return 0;
+}
+
+string InfixToPostfix(string exp) //converts infix to postfix
+{
+  stack<char> st;
+  string pf = "";
+  for(int i = 0; i < exp.length(); ++i)
+  {
+    if(isdigit(exp[i]))
+      pf += exp[i];
+    else if (exp[i] == '(')
+      st.push(exp[i]);
+    else if (exp[i] == ')')
+    {
+      while (st.top() != '(')
+      {
+        pf += st.top();
+        st.pop();
+      }
+      st.pop();
+    }
+    else if (exp[i] == '[')
+      st.push(exp[i]);
+    else if (exp[i] == ']')
+    {
+      while (st.top() != '[')
+      {
+        pf += st.top();
+        st.pop();
+      }
+      st.pop();
+    }
+    else if (exp[i] == '{') 
+      st.push(exp[i]);
+    else if (exp[i] == '}')
+    {
+      while (st.top() != '{')
+      {
+        pf += st.top();
+        st.pop();
+      }
+      st.pop();
+    }
+    else{
+      while(!st.empty() && precedence(st.top()) >= precedence(exp[i]))
+      {
+        pf += st.top();
+        st.pop();
+      }
+      st.push(exp[i]);
+    }
+  }
+  while(!st.empty())
+  {
+    pf += st.top();
+    st.pop();
+  }
+
+  return pf;
+}
+
+
+int evalPF(string pf) //evaluates postfix expression
+{
+  int toReturn;
+  stack<int> st;
+  for (int i = 0; i < pf.length(); ++i)
+  {
+    int tP; //toPush
+
+    if(isdigit(pf[i]))
+      st.push(pf[i]);
+    
+    else if(pf[i] == '^')
+    {
+      tP = 1;
+      int exp = st.top();
+      st.pop();
+      int base = st.top();
+      st.pop();
+      for (int i = 0; i < exp; ++i)
+      {
+        tP *= base;
+      }
+      st.push(tP);      
+    }
+
+    else if (pf[i] == '*')
+    {
+      tP = st.top();
+      st.pop();
+      tP *= st.top();
+      st.pop();
+      st.push(tP);
+    }
+
+    else if (pf[i] == '/')
+    {
+      int l, r;
+      r = st.top();
+      st.pop();
+      l = st.top();
+      st.pop();
+      tP = l/r;
+      st.push(tP);
+    }
+
+    else if (pf[i] == '+')
+    {
+      tP = st.top();
+      st.pop();
+      tP += st.top();
+      st.pop();
+      st.push(tP);
+    }
+
+    else //(pf[i] == '-')
+    {
+      tP = -st.top();
+      st.pop();
+      tP += st.top();
+      st.pop();
+      st.push(tP);
+    }
+  }
+  
+  toReturn = st.top();
+  st.pop();
+  return toReturn;
+}

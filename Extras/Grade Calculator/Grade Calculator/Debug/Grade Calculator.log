@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Extras\Grade Calculator\Grade Calculator\Source.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Extras\Grade Calculator\Grade Calculator\Source.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Extras\Grade Calculator\Grade Calculator\Source.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
+  Grade Calculator.vcxproj -> C:\Users\arnod\Documents\School 2.0\Comp Sci\2020.3 Fall\COSC 2430\Extras\Grade Calculator\Debug\Grade Calculator.exe

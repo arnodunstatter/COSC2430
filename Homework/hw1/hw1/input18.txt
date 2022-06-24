@@ -1,0 +1,47 @@
+start
+3,6
+n o n r e p
+e n e s s r
+l b i s s e
+nonrepressibleness
+2,9
+n o n r e s p e c
+s s e n e l b a t
+nonrespectableness
+3,6
+n o n r e s
+e n e s s p
+l b i s n o
+nonresponsibleness
+9,2
+n o
+s n
+e r
+i e
+r v
+a o
+n l
+o u
+i t
+nonrevolutionaries
+3,6
+n o n r i t
+c a l l y u
+i t s i l a
+nonritualistically
+6,1
+f
+i
+n
+i
+s
+h
+nonrudimentariness
+1,1
+d
+nonsanctimoniously
+1,1
+f
+nonsententiousness
+1,1
+g

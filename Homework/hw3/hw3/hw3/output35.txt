@@ -1,0 +1,37 @@
+List:
+prefix:-CD
+prefix:*EF
+postfix:GH-
+postfix:WE+
+postfix:DF-
+
+Reversed List:
+postfix:DF-
+postfix:WE+
+postfix:GH-
+prefix:*EF
+prefix:-CD
+
+Reserve Size: 5
+
+List:
+postfix:DF-
+postfix:WE+
+postfix:GH-
+prefix:*EF
+prefix:-CD
+
+Reversed List:
+prefix:-CD
+prefix:*EF
+postfix:GH-
+postfix:WE+
+postfix:DF-
+
+List:
+EMPTY
+
+Reversed List:
+EMPTY
+
+

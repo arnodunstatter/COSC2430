@@ -1,0 +1,7 @@
+pushReserve (postfix)
+pushReserve (prefix)
+printList
+printListBackwards
+emptyReserve (99)
+printList
+printListBackwards

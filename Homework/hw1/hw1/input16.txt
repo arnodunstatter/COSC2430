@@ -1,0 +1,26 @@
+start
+6,1
+u
+t
+o
+p
+i
+a
+wagon
+1,1
+o
+voyage
+2,2
+b b
+c c
+violin
+2,2
+d d
+e e
+values
+1,1
+e
+utopia
+2,3
+f i n
+h s i

@@ -1,0 +1,7 @@
+ q.push(list[i]);
+  while(!q.empty())
+  {
+    int temp = q.front();
+    cout << temp << endl;
+    q.pop();
+  }

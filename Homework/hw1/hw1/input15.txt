@@ -1,0 +1,25 @@
+absolves
+6,1
+f
+i
+n
+i
+s
+h
+start
+2,4
+a b s o
+d e v l
+absolved
+1,8
+a b s o l v e r
+absolver
+8,1
+a
+b
+s
+o
+l
+v
+e
+s

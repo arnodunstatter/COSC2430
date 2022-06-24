@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void selSort(vector<int>&); 
+
+int main() {
+  vector<int> list = {10, 4, 11, 20, 9, 6, 7, 15};
+
+  selSort(list);
+  for(int i = 0; i < list.size(); ++i)
+  cout << list[i] << " ";
+}
+
+void selSort(vector<int> & list)
+{
+  for(int i = 0; i < list.size() - 1; ++i) 
+  {
+    int min_index = i; //where we start looking for our min_index
+    for(int j = i + 1; j < list.size(); ++j) //now we find our new min
+    {
+      if(list[min_index] > list[j])
+        min_index = j;
+    }
+    swap(list[i],list[min_index]); //then 
+  }
+}
